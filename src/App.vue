@@ -2,12 +2,15 @@
 import AppHeader from "./components/AppHeader.vue";
 import AppMain from "./components/AppMain.vue";
 import AppFooter from "./components/AppFooter.vue";
+import AppListIcon from "./components/AppListIcon.vue";
+
 
 export default {
   components: {
     AppHeader,
     AppMain,
-    AppFooter
+    AppFooter,
+    AppListIcon
   }
 }
 </script>
@@ -16,6 +19,7 @@ export default {
 
 <AppHeader />
 <AppMain />
+<AppListIcon />
 <AppFooter />
 
 
