@@ -37,11 +37,9 @@
     @use "../style/partials/variables" as *;
     @use "../style/partials/mixins" as *;
 
-    .container {
-        width: 80%;
-        margin: 0 auto;
-        @include flex(row, space-between, center)
 
+    .container {
+        @include flex(row, space-between, center)
     }
 
     header {
