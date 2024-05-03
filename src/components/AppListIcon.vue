@@ -57,6 +57,8 @@ export default {
 .icon-list {
     width: 100%;
     background-color: $primary-color;
+    position: relative;
+    z-index: 2;
 }
 
 .container{
