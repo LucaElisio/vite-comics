@@ -5,6 +5,7 @@ import AppFooter from "./components/AppFooter.vue";
 import AppListIcon from "./components/AppListIcon.vue";
 
 
+
 export default {
   components: {
     AppHeader,
